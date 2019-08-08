@@ -1,0 +1,99 @@
+.topo {
+    text-align: center;
+    border-bottom: 1px solid #333;
+    padding-top: 10px;
+}
+
+.topo img {
+    border: 2px solid #005198;
+    border-radius: 10px;
+}
+
+.topo input[type=file] {
+    margin: 10px auto 0;
+    border: 1px solid;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.botoes-topo .botao-sair {
+	float: right;
+}
+
+.area-total {
+	text-align: center;
+    background-color: #005198;
+    padding: 10px 0 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+
+.area-total h2,
+.area-total h3,
+.area-total h4,
+.area-total p {
+    color: #fff;
+}
+
+.area-total .link {
+    color: #f9fe00;
+}
+
+.area-total input[type=text] {
+	padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+.area-total input[type=text]:focus {
+    box-shadow: 0px 1px 10px 1px rgba(0, 255, 9, 0.4);
+}
+
+.area-total .form-control {
+    width: 210px;
+    margin: auto;
+}
+
+.area-total .area-especializacao {
+    border-bottom: 2px solid #fff;
+}
+
+.area-total .area-especializacao:last-child {
+    border: none;
+}
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        padding: 20px;
+    }
+
+    input,
+    button {
+        width: 100% !important;
+    }
+
+    .botao-cadastrar,
+    .calcular,
+    .botao-alterar,
+    .botao-adicionar {
+        margin-bottom: 10px;
+    }
+
+    .botao-cancelar,
+    .calcular,
+    .botao-alterar,
+    .botao-excluir {
+        width: 100%;
+    }
+
+    .topo h2 {
+        font-size: 23px;
+        margin-top: 0;
+    }
+
+}
